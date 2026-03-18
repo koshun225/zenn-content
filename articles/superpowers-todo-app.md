@@ -3,7 +3,7 @@ title: "Claude Codeに\"Superpowers\"を入れたら、プロンプト1行から
 emoji: "⚡"
 type: "tech"
 topics: ["claudecode", "superpowers", "ai", "python"]
-published: false
+published: true
 ---
 
 ## プロンプトひとつで、ここまでできた
