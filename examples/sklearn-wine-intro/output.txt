@@ -1,0 +1,30 @@
+=== Step1: 前処理なし ===
+Step1 accuracy: 0.7593
+
+=== Step2: StandardScaler + Pipeline ===
+Step2 accuracy: 0.9815
+
+=== Step3: モデル評価 ===
+
+Confusion Matrix:
+[[19  0  0]
+ [ 0 21  0]
+ [ 0  1 13]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        19
+     class_1       0.95      1.00      0.98        21
+     class_2       1.00      0.93      0.96        14
+
+    accuracy                           0.98        54
+   macro avg       0.98      0.98      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+
+=== Step4: GridSearchCV ===
+
+Best params: {'svc__C': 1, 'svc__gamma': 'scale', 'svc__kernel': 'linear'}
+Best CV score: 0.9840
+Test accuracy: 0.9815
