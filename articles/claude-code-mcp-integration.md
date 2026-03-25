@@ -116,7 +116,7 @@ claude mcp add-from-claude-desktop
 
 既存のサービスだけでなく、自分でMCPサーバーを作ることもできます。ここでは、TypeScriptで実装したシンプルなサンプルを見ていきましょう。
 
-このサンプルは [`examples/mcp-server-sample/`](https://github.com/koshun/zenn-content/tree/main/examples/mcp-server-sample) で公開しています。
+このサンプルは [`examples/mcp-server-sample/`](https://github.com/koshun225/zenn-content/tree/main/examples/mcp-server-sample) で公開しています。
 
 ### 必要なパッケージ
 
