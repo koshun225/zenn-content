@@ -1,0 +1,10 @@
+{
+  "_comment": "このファイルは .mcp.json の設定例です。プロジェクトルートに .mcp.json として配置してください。",
+  "mcpServers": {
+    "sample-server": {
+      "command": "node",
+      "args": ["/Users/koshun/projects/zenn-content/examples/mcp-server-sample/dist/index.js"],
+      "env": {}
+    }
+  }
+}
