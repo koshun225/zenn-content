@@ -23,7 +23,11 @@ published: false
 
 ## Writing Style
 - Write in Japanese
-- Use casual but professional tone (です/ます調)
+- です/ます調をベースにしつつ、ブログのような親しみやすい文体で書く
+- 読者に語りかける表現を使う（「〜ですよね」「〜してみましょう」「〜だと思いませんか？」）
+- 自分の感想や体験を自然に交える（「個人的には〜」「実際に使ってみると〜」「これがけっこう便利で〜」）
+- 堅い表現を避ける（「〜することが可能です」→「〜できます」、「〜を実施する」→「〜する」）
+- 感嘆や共感を示す表現を適度に入れる（「これ、地味にうれしい」「ハマりポイントなので注意です」）
 - Start with a hook — why should the reader care?
 - Include code blocks with language tags (```python, ```typescript, etc.)
 - Use headers (##, ###) to structure the article
@@ -40,6 +44,11 @@ published: false
 - Short articles (knowledge sharing): 1500-3000 characters
 - Code tutorial articles: 3000-6000 characters
 - Deep dive articles: 5000-10000 characters
+
+## GitHub Links
+- GitHub username is `koshun225`
+- Repository: `https://github.com/koshun225/zenn-content`
+- When linking to code examples: `https://github.com/koshun225/zenn-content/tree/main/examples/<dir>`
 
 ## When Done
 - Save the article to `articles/<slug>.md`
